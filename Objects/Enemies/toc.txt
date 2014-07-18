@@ -1,0 +1,2 @@
+obj_gun
+obj_blueblock_tetris

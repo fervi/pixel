@@ -1,9 +1,9 @@
-Data: spr_hero_pixel.apng
+Data: spr_gun_tetris.apng
 TRANSPARENT: false
 SHAPE: RECTANGLE
 ALPHA_TOLERANCE: 0
 SEPARATE_MASK: false
-SMOOTH_EDGES: true
+SMOOTH_EDGES: false
 PRELOAD: true
 ORIGIN_X: 16
 ORIGIN_Y: 16

@@ -1,0 +1,20 @@
+Events{3}
+  Event (0,0): Actions{1}
+    Action (603,1): Code[4 lines]
+start_x=128
+
+timer=3;
+alarm[0]=room_speed;
+  Event (0,2): Actions{1}
+    Action (603,1): Code[2 lines]
+timer = timer-1 
+alarm[0]=room_speed;
+  Event (0,3): Actions{1}
+    Action (603,1): Code[7 lines]
+if (timer = 0)
+{
+randomed = round( random_range( 0 , 9 ) );
+instance_create(start_x+(32+32*randomed), obj_gun.y, obj_blueblock_tetris);
+x=start_x+(32*randomed)
+timer=10;
+}

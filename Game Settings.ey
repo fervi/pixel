@@ -2,7 +2,7 @@ Icon: icon.ico
 Splash: null
 Filler: null
 Progress: null
-GAME_GUID: 0x6ffeaf830db0dd8d262cf23daefadbc1
+GAME_GUID: 0x14b4e7b6a9c39e81b71de1c30d420a3f
 GAME_ID: 26312773
 START_FULLSCREEN: false
 INTERPOLATE: false
