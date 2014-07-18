@@ -10,7 +10,6 @@ OBJ Objects
 RMM Rooms
 INC Includes
 EXT Extensions
-CST Constants
 GMI Game Information
 GMS Game Settings
 PKG Extension Packages
