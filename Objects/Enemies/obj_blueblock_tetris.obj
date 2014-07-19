@@ -1,4 +1,4 @@
-Events{3}
+Events{4}
   Event (0,3): Actions{1}
     Action (603,1): Code[13 lines]
 if place_free(x+0,y+1)
@@ -26,3 +26,9 @@ if(vspeed>0){
 move_contact_solid(270,vspeed);
 }
 vspeed=0;
+  Event (obj_hero,4): Actions{1}
+    Action (603,1): Code[4 lines]
+if(vspeed > 0 && y < other.y+8)
+{
+room_restart()
+}

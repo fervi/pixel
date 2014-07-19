@@ -2,3 +2,4 @@ spr_hero_pixel
 spr_block_pixel
 spr_gun_tetris
 spr_blueblock_tetris
+spr_exit

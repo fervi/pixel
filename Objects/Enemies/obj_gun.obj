@@ -3,7 +3,7 @@ Events{3}
     Action (603,1): Code[4 lines]
 start_x=128
 
-timer=3;
+timer=1;
 alarm[0]=room_speed;
   Event (0,2): Actions{1}
     Action (603,1): Code[2 lines]
@@ -14,7 +14,7 @@ alarm[0]=room_speed;
 if (timer = 0)
 {
 randomed = round( random_range( 0 , 9 ) );
-instance_create(start_x+(32+32*randomed), obj_gun.y, obj_blueblock_tetris);
-x=start_x+(32*randomed)
-timer=10;
+instance_create(start_x+(32+32*randomed), obj_gun.y+32, obj_blueblock_tetris);
+x=start_x+(32+32*randomed)
+timer=1;
 }
