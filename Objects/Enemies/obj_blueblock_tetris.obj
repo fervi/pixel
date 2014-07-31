@@ -26,7 +26,7 @@ if(vspeed>0){
 move_contact_solid(270,vspeed);
 }
 vspeed=0;
-  Event (obj_hero,4): Actions{1}
+  Event (obj_hero_tetris,4): Actions{1}
     Action (603,1): Code[4 lines]
 if(vspeed > 0 && y < other.y+8)
 {

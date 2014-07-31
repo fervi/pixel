@@ -1,5 +1,5 @@
-Data: obj_hero.obj
-SPRITE: spr_hero_pixel
+Data: obj_hero_hamstercircle.obj
+SPRITE: spr_hero_hamster
 SOLID: false
 VISIBLE: true
 DEPTH: 0

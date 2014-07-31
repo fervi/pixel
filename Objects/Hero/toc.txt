@@ -1,0 +1,2 @@
+obj_hero_tetris
+obj_hero_hamstercircle

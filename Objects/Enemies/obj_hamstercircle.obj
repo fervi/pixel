@@ -1,0 +1,17 @@
+Events{2}
+  Event (0,0): Actions{1}
+    Action (603,1): Code[3 lines]
+bang=0;
+circles=5;
+speedcircle=0.5;
+  Event (0,3): Actions{1}
+    Action (603,1): Code[9 lines]
+if(bang<(360*circles))
+{
+    image_angle=image_angle+speedcircle;
+    bang=bang+speedcircle;
+}
+else
+{
+room_goto_next();
+}

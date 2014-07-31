@@ -1,0 +1,10 @@
+Events{3}
+  Event (0,0): Actions{1}
+    Action (603,1): Code[1 lines]
+vspeed=1.5;
+  Event (obj_hamstercircle,4): Actions{1}
+    Action (603,1): Code[1 lines]
+game_restart();
+  Event (38,5): Actions{1}
+    Action (603,1): Code[1 lines]
+y=y-7;

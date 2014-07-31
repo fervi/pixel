@@ -3,3 +3,5 @@ spr_block_pixel
 spr_gun_tetris
 spr_blueblock_tetris
 spr_exit
+Traps
+spr_hero_hamster
