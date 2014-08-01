@@ -3,16 +3,16 @@ Events{4}
     Action (603,1): Code[13 lines]
 if place_free(x+0,y+1)
 {
-gravity=0.5
+gravity=0.4
 }
 else 
 {
 gravity=0
 }
 
-if(vspeed>8)
+if(vspeed>6)
 {
-vspeed=8
+vspeed=6
 }
   Event (obj_block,4): Actions{1}
     Action (603,1): Code[4 lines]

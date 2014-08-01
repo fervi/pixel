@@ -1,2 +1,2 @@
-rm_hamster
 rm_tetris
+rm_hamster

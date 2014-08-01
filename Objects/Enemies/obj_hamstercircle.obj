@@ -8,7 +8,7 @@ speedcircle=0.5;
     Action (603,1): Code[9 lines]
 if(bang<(360*circles))
 {
-    image_angle=image_angle+speedcircle;
+    image_angle=image_angle-speedcircle;
     bang=bang+speedcircle;
 }
 else
